@@ -1,29 +1,31 @@
-# README #
+# BSA patterns practices and principles homework starter
 
-This README would normally document whatever steps are necessary to get your application up and running.
+## Info
 
-### What is this repository for? ###
+- This project saves data in memory so you don't need any database
+- This project uses [NPM Workspaces](https://docs.npmjs.com/cli/v7/using-npm/workspaces)
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+## Requirements
 
-### How do I get set up? ###
+- NodeJS (16.x.x)
+- NPM (8.x.x)
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+## Start the application
 
-### Contribution guidelines ###
+1. Install dependencies
 
-* Writing tests
-* Code review
-* Other guidelines
+```
+npm i
+```
 
-### Who do I talk to? ###
+2. Start backend
 
-* Repo owner or admin
-* Other community or team contact
+```
+npm start -w server
+```
+
+3. Start client
+
+```
+npm start -w client
+```
